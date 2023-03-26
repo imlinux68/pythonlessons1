@@ -30,7 +30,7 @@ export default {
   <div class="greetings">
     <h1 class="green">{{ currentTime }}</h1>
     <h3>Push the button to save time in DB</h3>
-    <button @click="saveTime">Save this time</button>
+    <button @click="saveTime">Save Time!</button>
     <h3 v-if="savedTimes.length && showSavedTimes">
       Times saved before:
     </h3>
